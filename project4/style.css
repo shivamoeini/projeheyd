@@ -25,4 +25,7 @@
 .logo-img{
     width: 150px;
 }
-."nav-links{}
+.nav-links{
+list-style: none;
+
+}
