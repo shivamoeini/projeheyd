@@ -570,6 +570,16 @@ nav .fa-bars {
   align-items: center;
   padding: 10px 50px;
 }
+/* .check-form {
+    margin: 23px 4px;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 12px;
+} */
 .check-form label {
   display: block;
 }
@@ -587,7 +597,26 @@ nav .fa-bars {
   outline: none;
   color: #fff;
   padding: 18px;
-  width: 350px;
+  width: 260px;
   border-radius: 8px;
+  font-size: 16px;
+}
+.guest-fied {
+  flex: 1;
+}
+.details-list {
+  list-style: none;
+  margin: 50px 0;
+}
+.details-list li {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #555;
+}
+.details-list li span {
+  display: block;
+  font-weight: 400;
   font-size: 16px;
 }
