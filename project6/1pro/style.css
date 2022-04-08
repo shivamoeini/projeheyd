@@ -552,3 +552,11 @@ nav .fa-bars {
 .small-deetails h4 {
   font-size: 22px;
 }
+.line {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0 50px;
+}
