@@ -663,3 +663,12 @@ nav .fa-bars {
 .host i {
   color: #ff5361;
 }
+.contact-host {
+  display: inline-block;
+  margin: 40px 0 40px 120px;
+  text-decoration: none;
+  color: #555;
+  padding: 15px 50px;
+  border: 1px solid #ff5361;
+border-radius: 8px;
+}
