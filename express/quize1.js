@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
-app.get("/search", (req, res) => {
-  const { q } = req.query;
+app.get("/chocolate", (req, res) => {
+  const { amount } = req.query;
   console.log(req.query);
-  res.send(`you searched for: ${q}`);
+  res.send(`<h1>chocolate: ${amount}</h1>`);
 });
 const PORT = 3000;
 app.listen(PORT, () => {
