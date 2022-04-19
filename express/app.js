@@ -29,10 +29,10 @@ const app = express();
 //   const { q } = req.query;
 //   res.send(`you search for:${q}`);
 // });
-app.get("/*", (req, res) => {
-  res.send("page not found");
-});
-const PORT = 6633;
-app.listen(PORT, () => {
-  console.log(`your app is runing on port:${PORT}`);
-});
+// app.get("/*", (req, res) => {
+//   res.send("page not found");
+// });
+// const PORT = 6633;
+// app.listen(PORT, () => {
+//   console.log(`your app is runing on port:${PORT}`);
+// });
