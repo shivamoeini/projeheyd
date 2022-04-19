@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
 
-app.get("/newSearch", (req, res) => {
-  const { q, query } = req.query;
+app.get("/multiply", (req, res) => {
+  const { value1, value2 } = req.query;
   console.log(req.query);
-  res.send(`you searched for: ${q} with query of: ${query}`);
+  res.send(`you searched for: ${value1} with query of: ${value2}`);
 });
 
 const PORT = 3000;
